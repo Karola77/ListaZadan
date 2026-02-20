@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(135deg, #ffd6e8, #e0c3fc);
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    transition: 0.4s;
+    color: #333;
+}
+
+
+/* ciemny motyw */
+
+.dark-mode {
+    background: linear-gradient(135deg, #1f1f2e, #2c2c3e);
+    color: #ffffff;
+}
+
+/* Boxy w dark mode */
+.dark-mode .form-box,
+.dark-mode .table-box {
+    background: #2f2f44;
+    color: white;
+}
+
+/* DataTables tekst w dark mode */
+.dark-mode table {
+    color: white !important;
+}
+
+/* Header */
+.main-container {
+    max-width: 900px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.header-box {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    color: #6c5b7b;
+}
+
+/* Form box */
+.form-box {
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+/* Table box */
+.table-box {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+.big-input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+/* Button */
+.btn-pink {
+    background-color: #ff6fa5;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-pink:hover {
+    background-color: #ff4d94;
+    color: white;
+}
+
+/* wykonane zadanie */
+.done-task {
+    background-color: #d4f8e8 !important;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.dark-mode .done-task {
+    background-color: #145c4a !important;
+}
+
+/* oznaczone */
+.done-badge {
+    background-color: #1dd1a1;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* Hover */
+#taskTable tbody tr:hover {
+    background-color: #ffe3f1;
+}
+
+.dark-mode #taskTable tbody tr:hover {
+    background-color: #3a3a55;
+}
+
+/* walidacja */
+label.error {
+    color: #ff4d94;
+}
