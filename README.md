@@ -36,5 +36,6 @@ Projekt został wykonany przy użyciu jQuery oraz Bootstrap.
 ---
 
 ## Autor
-
+Karolina Wachnicka,
 Projekt wykonany na potrzeby zaliczenia z przedmiotu programowanie aplikacji webowych.
+
